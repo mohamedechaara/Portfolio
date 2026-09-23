@@ -7,7 +7,7 @@ import {
   FaLinkedinIn,
   FaMapMarkerAlt,
   FaPaperPlane,
-  FaPhone,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const contactItems = [
@@ -18,10 +18,10 @@ const contactItems = [
     href: "mailto:mohamedechaara1@gmail.com",
   },
   {
-    icon: <FaPhone />,
-    label: "Phone",
-    value: "+212 6 81 74 79 38",
-    href: "tel:+212681747938",
+  label: "WhatsApp",
+  value: "+212 681747938",
+  href: "https://wa.me/212681747938?text=Bonjour%2C%20je%20viens%20de%20visiter%20votre%20portfolio.",
+  icon: <FaWhatsapp />,
   },
   {
     icon: <FaMapMarkerAlt />,
